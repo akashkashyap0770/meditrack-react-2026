@@ -14,6 +14,8 @@ All data is stored in **LocalStorage**, so records remain safe even after page r
 - Delete medicine entries  
 - Search medicines instantly  
 - LocalStorage data persistence  
+- **Responsive design** for mobile, tablet, and desktop  
+- **MedicineCards component** for improved medicine display layout  
 
 ---
 
