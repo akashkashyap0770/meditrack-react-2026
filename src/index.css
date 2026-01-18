@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+/* nav {
+    background: #1976d2;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* nav a {
+    color: white;
+    margin-left: 15px;
+} */
+
+input {
+    background: white;
+    padding: 4px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
