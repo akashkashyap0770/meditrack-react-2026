@@ -3,39 +3,50 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-        <div className='flex justify-center flex-col p-5 bg-blue-500 text-white'>
-            <div className='flex justify-around items-center mb-5'>
-                <div className='w-[400px] flex flex-col gap-y-1'>
+        <footer className='bg-blue-500 text-white mt-10'>
+
+            {/* Main Footer Content */}
+            <div className='max-w-6xl mx-auto px-4 py-6 
+                            flex flex-col md:flex-row 
+                            gap-6 md:gap-10 
+                            justify-between'>
+
+                {/* Brand */}
+                <div className='md:w-1/3 text-center md:text-left'>
                     <h1 className='text-lg font-semibold'>💊 MediTRACK</h1>
-                    <p className='text-sm'>MediTRACK helps you manage and track your medicines easily.
-                        Never miss expiry dates or stock updates again.</p>
+                    <p className='text-sm mt-1'>
+                        Manage and track your medicines easily.
+                    </p>
                 </div>
-                <div>
+
+                {/* Links */}
+                <div className='text-center md:text-left'>
                     <h1 className='text-lg font-semibold'>Quick Links</h1>
-                    <ul>
+                    <ul className='text-sm space-y-1 mt-1'>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/add">Add Medicine</Link></li>
                         <li><Link to="/view">View Medicines</Link></li>
                     </ul>
                 </div>
-                <div>
-                    <h1 className='text-lg font-semibold'>📞 Contact Us</h1>
-                    <p className="text-sm">Email: meditrack@gmail.com</p>
-                    <p className="text-sm">Phone: +91 98765 43210</p>
-                    <p className="text-sm">Address: Mumbai, India</p>
+
+                {/* Contact */}
+                <div className='text-center md:text-left'>
+                    <h1 className='text-lg font-semibold'>Contact</h1>
+                    <p className='text-sm mt-1'>meditrack@gmail.com</p>
+                    <p className='text-sm'>+91 98765 43210</p>
+                    <p className='text-sm'>Mumbai, India</p>
                 </div>
             </div>
 
-            {/* Underline Divider */}
-            <div className='flex justify-center'>
-                <p className='border-t border-gray-300 my-6 w-[85%]'></p>
+            {/* Divider */}
+            <div className='border-t border-blue-300'></div>
+
+            {/* Bottom Line */}
+            <div className='text-center text-sm py-3 px-4'>
+                © 2026 MediTRACK | Made by Akash
             </div>
 
-            <div className='flex justify-center items-center'>
-                <p>© 2026 MediTRACK. All Rights Reserved.</p>
-                <p>Made with by Akash</p>
-            </div>
-        </div>
+        </footer>
     )
 }
 

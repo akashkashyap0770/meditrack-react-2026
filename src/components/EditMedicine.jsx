@@ -8,7 +8,7 @@ function EditMedicine() {
     const { medicines, updateMedicine } = useContext(MedicineContext);
 
     const selectedMed = medicines.find(med => med.id === id);
-    
+
     const [form, setForm] = useState(selectedMed);
 
     if (!selectedMed) return <p className="text-center text-gray-500 mt-10">No Medicines Found</p>;
@@ -25,8 +25,8 @@ function EditMedicine() {
     };
 
     return (
-        <div className='flex flex-col items-center p-8'>
-            <div className='w-[700px] bg-blue-200 p-4 border-[3px] border-blue-800 rounded-xl'>
+        <div className='flex justify-center p-4'>
+            <div className='w-full max-w-2xl bg-blue-200 p-4 border-2 border-blue-800 rounded-xl'>
                 <h1 className='text-2xl mb-3 text-blue-800 font-bold'>✏️ Edit Medicine</h1>
 
                 <form onSubmit={handleSubmit} className='flex flex-col gap-y-2'>

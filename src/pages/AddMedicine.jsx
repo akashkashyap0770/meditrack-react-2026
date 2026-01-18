@@ -3,8 +3,8 @@ import MedicineForm from '../components/MedicineForm '
 
 function AddMedicine() {
     return (
-        <div className='flex flex-col items-center p-8'>
-            <div className='h-auto w-[700px] bg-blue-200 p-4 border-[3px] border-blue-800 rounded-xl'>
+        <div className='flex justify-center p-4'>
+            <div className='w-full max-w-2xl bg-blue-200 p-4 mt-2 border-2 border-blue-800 rounded-xl'>
                 <h1 className='text-2xl mb-2 text-blue-800 font-bold'>💊 Add Medicine</h1>
                 <MedicineForm />
             </div>
