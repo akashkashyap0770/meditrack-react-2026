@@ -1,2 +1,34 @@
-# meditrack-react-2026
-MediTRACK is a React-based medicine management web app that allows users to add, edit, search, and manage medicine records with local storage persistence.
+# 💊 MediTRACK
+
+MediTRACK is a simple **medicine management web application** built with React.  
+It allows users to **add, edit, view, delete, and search medicines** easily.  
+All data is stored in **LocalStorage**, so records remain safe even after page refresh.
+
+---
+
+## ✨ Features
+
+- Add new medicine records  
+- Edit existing medicine details  
+- View all saved medicines  
+- Delete medicine entries  
+- Search medicines instantly  
+- LocalStorage data persistence  
+
+---
+
+## 🛠️ Tech Stack
+
+- React + Vite  
+- Tailwind CSS  
+- React Router  
+- Context API  
+- LocalStorage  
+
+---
+
+## 📦 Installation
+
+1. Clone the repository  
+```bash
+git clone https://github.com/akashkashyap0770/meditrack-react-2026.git
